@@ -59,7 +59,7 @@ const runWasm = async () => {
   //虽然，在一些情况下这个可以仅为: exports.GET_THIS_CONSTANT_FROM_JAVASCRIPT
   console.log(exports.GET_THIS_CONSTANT_FROM_JAVASCRIPT.valueOf()); // 日志 2424
 
-  // Trying to access a property we did NOT export
+  // 尝试访问一个我们没有导出的属性
   console.log(exports.addIntegerWithConstant); // 日志未定义
 };
 runWasm();
