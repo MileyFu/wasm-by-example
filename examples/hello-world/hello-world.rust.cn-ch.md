@@ -1,16 +1,16 @@
 # Hello World!
 
-**Before getting started, be sure to check out all of the languages available, by clicking the "languages" dropdown in the header.**
+**在开始之前，请检查所有可用的语言，点击标题中的“语言”下拉菜单。**
 
-## Overview
+## 概览
 
-For our first program, we will be doing a "Hello world" type of program in [Rust](https://www.rust-lang.org/) and [wasm-pack](https://github.com/rustwasm/wasm-pack).
+对于我们的第一个程序，我们将用 [Rust](https://www.rust-lang.org/) 和 [wasm-pack](https://github.com/rustwasm/wasm-pack) 写一个 "Hello world" 类型的程序。
 
-To keep things simple with Wasm's limitations mentioned [in the introduction example](/example-redirect?exampleName=introduction&programmingLanguage=all), instead of displaying a string, we will add two numbers together and display the result. Though, it is good to keep in mind, in later examples, a lot of these limitations will be abstracted away by your WebAssembly Language of choice (In this case, Rust). It is also highly reccommended you take a look at the [wasm-pack QuickStart Guide](https://github.com/rustwasm/wasm-pack#-quickstart-guide), as it will be referenced a lot in this example.
+To keep things simple with Wasm's limitations mentioned [in the introduction example](/example-redirect?exampleName=introduction&programmingLanguage=all), instead of displaying a string, we will add two numbers together and display the result. Though, it is good to keep in mind, in later examples, a lot of these limitations will be abstracted away by your WebAssembly Language of choice (In this case, Rust).也高度推荐你看一下[wasm-pack快速入门指南](https://github.com/rustwasm/wasm-pack#-quickstart-guide)，因为它会在今天的例子中大量引用。
 
 ---
 
-## Project Setup
+## 项目设置
 
 So first, Let's get [rust installed](https://www.rust-lang.org/tools/install), which includes [cargo](https://doc.rust-lang.org/cargo/index.html). Then, using cargo, let's install wasm-pack, which we will need later:
 
