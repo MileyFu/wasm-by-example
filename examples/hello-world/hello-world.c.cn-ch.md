@@ -2,13 +2,13 @@
 
 ## 概览
 
-让我们用[C](<https://en.wikipedia.org/wiki/C_(programming_language)>)语言做一个 "Hello world" 类型的程序  using [Emscripten](https://emscripten.org)!
+让我们用[Emscripten](https://emscripten.org)用[C](<https://en.wikipedia.org/wiki/C_(programming_language)>)语言写一个 "Hello world" 类型的程序。
 
 ---
 
 ## 工具设置
 
-首先，让我们 [获取 emsdk](https://emscripten.org/docs/getting_started/downloads.html) ，这是Emscripten获取编译器和所有工具和你需要的其它东西，要做到这一点，可以容易地使用 git 从 github 获取它:
+首先，让我们 [获取 emsdk](https://emscripten.org/docs/getting_started/downloads.html) ，这是Emscripten的工具，可以获取编译器和所有工具和你需要的其它东西，要做到这一点，可以容易地使用 git 从 github 获取它:
 
 ```bash
 git clone https://github.com/emscripten-core/emsdk.git
