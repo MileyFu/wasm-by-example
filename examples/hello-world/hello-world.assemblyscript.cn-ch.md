@@ -4,13 +4,13 @@
 
 ## 概览
 
-对于我们的第一个程序，我们将在 [AssemblyScript](https://github.com/AssemblyScript/assemblyscript)中执行“ Hello world”类型的程序。 AssemblyScript本质上是一个从TypeScript到 WebAssembly 编译器。 这对于想要编写 WebAssembly的TypeScript 和 JavaScript 开发人员来说非常棒，他们不需要学习新的语言。 但是，需要明确的是，你没有办法使用AssemblyScript将TypeScript React apps编译到WebAssembly，因为它的 TypeScript不同。但是它仍然是构建 WebAssembly 应用程序的一种很好的语言。
+对于我们的第一个程序，我们将在 [AssemblyScript](https://github.com/AssemblyScript/assemblyscript)中执行“ Hello world”类型的程序。 AssemblyScript本质上是一个从TypeScript到 WebAssembly 编译器。 这对于想要编写 WebAssembly的TypeScript 和 JavaScript 开发人员来说非常棒，他们不需要学习新的语言。 但是，需要明确的是，你没有办法使用AssemblyScript将TypeScript React apps编译到WebAssembly，因为它与 TypeScript不同。但是它仍然是构建 WebAssembly 应用程序的一种很好的语言。
 
 为方便说明，使用[介绍示例](/example-redirect?exampleName=introduction&programmingLanguage=all)中提到的 Wasm 的限制,我们将两个数字加到一起并展示结果。然而我们要记住，在后面的示例当中，许多这些限制将被您选择的 WebAssembly 语言(在本例中为 AssemblyScript)抽象出来。
 
 ---
 
-## Implementation执行
+## 实现
 
 那么首先让我们创建我们的 `hello-world.ts` AssemblyScript文件:
 
